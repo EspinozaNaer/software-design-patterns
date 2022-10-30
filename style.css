@@ -4,14 +4,14 @@
   --ui-color-brand: #353535;
 
 
-  --ui-color-n-000: #000;
+  --ui-color-n-000: #171717;
   --ui-color-n-050: #F5FCC6;
   --ui-color-n-100: #EBF5AA;
   
   --ui-color-n-300: #fff;
   --ui-color-n-500: #fff;
   --ui-color-n-700: #fff;
-  --ui-color-n-900: #1a1a1a;
+  --ui-color-n-900: #fff;
 
   --ui-color-background-primary  : var(--ui-color-n-000);
   --ui-color-background-secondary: var(--ui-color-n-050);
@@ -112,6 +112,10 @@ small { font-size: var(--ui-typography-s); }
 .ui-text-note {
   color: var(--ui-color-typography-note);
   line-height: 1;
+}
+
+.ui-section-feature p {
+  color: #000;
 }
 
 img,
@@ -222,6 +226,10 @@ svg {
 .ui-section-footer--copyright {
   margin-bottom: 0;
   margin-right: auto;
+}
+
+.ui-component-button{
+  color: #E8E8E8;
 }
 
 @media screen and (min-width: 48rem) {
